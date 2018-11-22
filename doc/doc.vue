@@ -58,8 +58,7 @@
   }
   .doc-content {
     margin: 0 auto;
-    min-width: 1900px;
-    padding: 20px 160px;
+    padding: 20px 40px;
 
     .doc-item {
       margin-bottom: 20px;
