@@ -14,6 +14,7 @@
     <DocCheckbox></DocCheckbox>
     <DocSwitch></DocSwitch>
     <DocSelect></DocSelect>
+    <DocBreadcrumb></DocBreadcrumb>
   </div>
 </template>
 
@@ -30,6 +31,7 @@
   import DocCheckbox from './doc-checkbox.vue';
   import DocSwitch from './doc-switch.vue';
   import DocSelect from './doc-select';
+  import DocBreadcrumb from './doc-breadcrumb';
 
   export default {
     name: 'Doc',
@@ -45,7 +47,8 @@
       DocRadio,
       DocCheckbox,
       DocSwitch,
-      DocSelect
+      DocSelect,
+      DocBreadcrumb
     }
   };
 </script>
